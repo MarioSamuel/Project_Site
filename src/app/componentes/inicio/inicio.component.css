@@ -96,9 +96,13 @@ img{
     /* background-color: var(--azulm);  */
 }
 
-@media (max-width: 500px) {
-    #contenido_inicio{
+@media (max-width: 700px) {
+    #contenido_inicio {
         display: block;
         text-align: left;
+
+    }
+
+    #img-text1 img {
     }
 }
