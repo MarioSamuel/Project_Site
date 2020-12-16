@@ -25,7 +25,10 @@ html{
     letter-spacing: 0.5px;
 }
 
-
+body {
+	margin: -0;
+	font-family: sans-serif;
+}
 #contenedor{
     margin-left:auto;
     margin-right: auto; 
@@ -37,58 +40,6 @@ html{
     box-shadow: 1px 1px 5px #000;
     margin-bottom: 30px;
 }
-#logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width:20%;
-}
-#logo img{
-    width: 65%;
-    height: 90%;
-}
-
-
-#menu{
-    font-size: 16px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    width: 100%;
-    height: 50px;
-   background-color: var(--azulff); 
-    
-}
-.a{
-    padding: 10px;
-   display: flex;
-   align-items: center;
-    height: 60%;
-    text-decoration: none;
-    color: whitesmoke;
-}
-.ac{
-    background-color: var(--azulc);
-    color: var(--azulff);
-}
-.a:hover{
-    background-color: var(--azulc);
-    color: var(--azulff);
-}
-#salir{
-    text-align: right;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    color: whitesmoke;
-}
-
-
 
 #banner{
     width: 100%;
@@ -100,14 +51,14 @@ html{
    
 }
 #contenido{
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   /*  padding-left: 0%;
+    padding-right: 0%; */
+/*     padding-top: 10px;
+ */    padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
     justify-content: center;
-    width: 73%;
     height:auto;
   
 }
@@ -118,7 +69,7 @@ html{
     justify-content: center;
     padding-top: 25px;
     text-align: center;
-    width: 25%;
+    width: 20%;    /* ocultar componente de ADM*/
     /* height: 400px; */
     /* background-color: rgb(73, 71, 150); */
 }
@@ -171,144 +122,6 @@ html{
     color: var(--azulff);
 }
 
-/* 
-#pie_pagina{
-    font-size: 12px;
-    color:white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 330px;
-    background-color: var(--gris); 
-}
-#pie_pagina p{
-margin: 5px;
-}
-.contenedorPie{
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 45%;
-    height: 85%;
-}
-h4{
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-#derecha {
-    text-align: center;
-}
-#derecha input{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 15px;
-    border-style: none;
-    outline: none;
-    border-radius: 10px;
-    box-shadow: 0px 1px 5px rgb(53, 53, 53);
-}
-
-#NomeComent{
-    width: 220px;
-}
-#MailComent{
-    width: 220px;
-}
-
-.comentario{
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-right: 60px;
-    border-style: none;
-    outline: none;
-    border-radius: 10px;
-    background-color: var(--azulcc);
-    box-shadow: 0px 1px 5px rgb(53, 53, 53);
-    height: 90px;
-}
-#izquierda{
-  padding-top: 2%;
-  display: flex;
-  flex-wrap: wrap;
-    text-align: left;
-}
-#izquierda p{
-    margin-bottom:10px; 
-}
-
-#ubicacion{
-  
-    width: 49%;
-    height: 130px;
-    border-radius: 20px;
-     background-color: var(--azulcc); 
-}
-.endereco{
-    padding-left: 1%;
-    width: 45%;
-    line-height: 20px;
-     background-color: #0a5308; 
-}
-#info{
-    padding-top: 1%;
-    padding-left: 1%;
-    text-align: right;
-    width: 15%;
-    height: 110px;
-}
-#infoDesc{
-    padding-top: 1%;
-    padding-left: 2%;
-    width: 82%;
-    height: 110px;
-}
- */
-/* #social{
-    margin-top: 5px;
-    text-align: center;
-    width: 100%;
-    height: 50px;
-  
-}
- */
-/* 
-@media (max-width: 480px) {
-    #pie_pagina {
-        display: block;
-        text-align: left;
-        color: #166088;
-
-    }
-}
-
-@media (max-width: 500px) {
-    #pie_pagina {
-        display: block;
-        text-align: left;
-        color: #e88621
-    }
-    .contenedorPie{
-        box-shadow: 0px 1px 5px rgb(53, 53, 53);
-
-    }
-} */
-/* @media (max-width: 1200px) {
-    #pie_pagina {
-        display: block;
-        text-align: left;
-    }
-}
- */
-/* @media (max-width: 480px) {
-    #pie_pagina {
-        display: block;
-        text-align: left;
-    }
-} */
- 
-/* Mario Samuel - CONTACTO */
 
 .contac_pie_paginaa {
     max-width: 1200px;
@@ -409,17 +222,18 @@ h3{
     background: rgb(70, 67, 67);
 
     text-align: center;
-
 }
 
-/* bars menu derecha*/
+/* LOGO MENU  bars derecha*/
 
 .bars {
     display: none;
 }
 
-/* REPONSIVIDADDE */
-@media(max-width: 720px){
+
+/* REPONSIVIDADDE  COMPONENTE*/
+@media(max-width: 719px){
+ 
     #admin_articulos{
         display: none;
         
@@ -433,7 +247,6 @@ h3{
     .bars {
         height:70%;
         display:inline;
-        
     }
     div #menu img{
         align-items: right;
@@ -454,12 +267,143 @@ h3{
     .social,
     .contact-info p {
         text-align: left;
+    } 
+}
+ 
+
+ @media screen and (min-width: 860px) {
+    #contenido{
+        width: 100%;
     }
-   
+    }
+    @media screen and (min-width: 768px) {
+        #contenido{
+            width: 73%;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 10px;
+            padding-bottom: 10px;  
+        }
+    } 
+    
+    
+    @media screen and (min-width: 719px) {
+        #contenido{
+            width: 73%;
+        }
+    } 
+/* MENU HEADER DIV A REPONSIVO */
+
+header {
+    width: 100%;
+	background: var(--azulm);
+}
+#btn-menu {
+	display: none;
+}
+
+header label {
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+header label:hover {
+	cursor: pointer;
+}
+.logo {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.logo a {
+	text-decoration: none;
+	line-height: 1px;
+}
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu li {
+	text-align: center;
+	width: auto;
+}
+
+.menu li a {
+	display: block;
+	padding: 20px 5px;
+	color: var(--azulff);
+	text-decoration: none;
+	font-size: 1.rem;
+	line-height: 1.33;
+	font-weight: 800;
+}
+
+.link-color:hover {
+    background: rgba(201, 201, 201, 0.3);
+}
+.menu li a:hover {
+	color: var(--azulf);
+	-webkit-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
 }
 
 
+/* REPONSIVA  DE MENU  */
 
-/* menuitem */
+@media screen and (max-width: 719px) {
 
+	header label {
+		display: block;
+		float: right;
+		width: 100%;
+		text-align: right;
+	}
+	.menu {
+		position: absolute;
+        top: 50px;   
+		background: rgba(201, 201, 201, 0.3);
+		width: 100%;
+		margin-left: -100%;
+		transition: all 0.0s;
+	}
+
+	.menu li {
+		text-align: left;
+	}
+	.menu li a {
+        padding: 5px 20px !important;
+    }
+
+	.menu ul {
+		flex-direction: column;
+	}
+	#btn-menu:checked ~ .menu {
+		margin: 0;
+    }
+}
+
+/* REPONSIVA LODO DE MENU  */
+@media screen and (max-width: 1350px) {
+    .logo a img {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1020px) {
+    .logo a img {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 720px) {
+    .logo a img {
+		width: 70%;
+	}
+}
 

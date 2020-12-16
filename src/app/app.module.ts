@@ -9,6 +9,11 @@ import { SolicitacaoComponent } from './componentes/solicitacao/solicitacao.comp
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { TemplateComponent } from './componentes/template/template.component';
 import { enlacesPronto } from './routas';
+import { HttpClientModule } from "@angular/common/http";
+import { AdminComponent } from './componentes/admin/admin.component';
+import{FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -20,11 +25,16 @@ import { enlacesPronto } from './routas';
     SolicitacaoComponent,
     ContactoComponent,
     TemplateComponent,
-    
+    AdminComponent,      
   ],
   imports: [
     BrowserModule,
-    enlacesPronto
+    enlacesPronto,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
