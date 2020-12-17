@@ -1,16 +1,4 @@
-#contenido_adocao{
-    /* padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 10px;*/
-    padding-bottom: 10px;
-    /* display: none; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    width: 100%;
-    height:auto;
-    /* background-color: rgb(117, 168, 66); */
-}
+
 #indicaciones{
     
     display: flex;
@@ -19,7 +7,7 @@
     justify-content: right;
     padding-left: 5px;
     width: 100%;
-    height: 100px;
+    height: 130px;
     margin-bottom: 1.5%;
     border: 1px solid rgba(121, 121, 121, .3);
     border-radius: 10px;

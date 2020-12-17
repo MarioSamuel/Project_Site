@@ -23,6 +23,7 @@ html{
     font-family: 'Roboto', sans-serif;
     /* font-size: 16px; */
     letter-spacing: 0.5px;
+    text-align: justify;
 }
 
 body {
@@ -292,7 +293,8 @@ h3{
             width: 73%;
         }
     } 
-/* MENU HEADER DIV A REPONSIVO */
+
+/* MENU HEADER DIV */
 
 header {
     width: 100%;
@@ -341,7 +343,8 @@ header label:hover {
 	text-decoration: none;
 	font-size: 1.rem;
 	line-height: 1.33;
-	font-weight: 800;
+    font-weight: 800;
+    text-align: justify;
 }
 
 .link-color:hover {
@@ -362,14 +365,14 @@ header label:hover {
 	header label {
 		display: block;
 		float: right;
-		width: 100%;
-		text-align: right;
+/* 		width: 100%;
+ */		text-align: right;
 	}
 	.menu {
 		position: absolute;
         top: 50px;   
 		background: rgba(201, 201, 201, 0.3);
-		width: 100%;
+		width: 97%;
 		margin-left: -100%;
 		transition: all 0.0s;
 	}
@@ -378,7 +381,8 @@ header label:hover {
 		text-align: left;
 	}
 	.menu li a {
-        padding: 5px 20px !important;
+        padding: 5px 10px !important;
+
     }
 
 	.menu ul {
