@@ -247,6 +247,8 @@ h3{
 
 i{
     color: #e88621;
+    justify-content: center;
+
 }
 
 
@@ -294,6 +296,8 @@ i{
     .contact-info p {
         text-align: left;
     } 
+
+    
 }
  
 
@@ -323,8 +327,12 @@ i{
 
 header {
     width: 100%;
-	background: var(--azulm);
+    background: var(--azulm);
+
+    height: 60px;
+    
 }
+
 #btn-menu {
 	display: none;
 }
@@ -433,6 +441,8 @@ header label:hover {
 @media screen and (max-width: 720px) {
     .logo a img {
 		width: 70%;
-	}
+    }
+    
+    
 }
 
